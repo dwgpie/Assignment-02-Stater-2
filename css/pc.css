@@ -101,7 +101,7 @@ section > .containers {
   height: 180px;
   border: 10px solid white;
   border-radius: 50%;
-  top: 64%;
+  top: 70%;
   left: 45%;
 }
 
@@ -245,7 +245,8 @@ section > .containers {
 #interest .section-content__icon {
   display: flex;
   flex-direction: column;
-  margin-right: 15px;
+  align-items: center;
+  margin-right: 9px;
 }
 
 #interest .section-content__icon i {
@@ -410,6 +411,10 @@ section > .containers {
 #project .section-content__personal {
   display: flex;
   margin-right: 16px;
+}
+
+#project .wrap__personal {
+  display: flex;
 }
 
 #project .section-content__personal-icon {

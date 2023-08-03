@@ -1,0 +1,404 @@
+@media (max-width: 739px) {
+  * {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  :root {
+    --main-color: rgb(0, 140, 255);
+  }
+
+  section > .containers {
+    width: 100%;
+    margin: auto;
+    display: block;
+
+    padding: 30px 10px;
+  }
+
+  #banner .box h1 {
+    color: #f7f7f7;
+    font-size: 35px;
+  }
+
+  /* NAVBAR */
+  #nav-bar .container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* CO sua */
+  #nav-bar .container__info {
+    height: 50px;
+    display: flex;
+    text-decoration: none;
+    padding: 30px 50px;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-top: inherit;
+    border-bottom: inherit;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* CO sua */
+  #nav-bar .container__info--other {
+    display: none;
+  }
+
+  #nav-bar .container__info h1 {
+    font-size: 20px;
+  }
+
+  #nav-bar .container__info span {
+    color: #ccc;
+  }
+
+  #nav-bar .container__item {
+    display: inline-block;
+  }
+
+  #nav-bar .icon-color {
+    color: var(--main-color);
+  }
+
+  .container__item-img {
+    position: absolute;
+    right: 4.7px;
+    height: 180px;
+    border: 10px solid white;
+    border-radius: 50%;
+    top: 64%;
+    left: 45%;
+    display: none;
+  }
+
+  /* ABOUT */
+  #about {
+  }
+
+  /* CO sua */
+  .grid-col-1,
+  #about .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #about h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  #about p {
+    line-height: 28px;
+    font-size: 20px;
+  }
+
+  #personal-info span {
+    line-height: 32px;
+  }
+
+  #personal-info li {
+    font-size: 20px;
+  }
+
+  #personal-info .personal-info__icon {
+    margin-top: 20px;
+    color: var(--main-color);
+  }
+
+  #personal-info .personal-info__icon i {
+    font-size: 25px;
+  }
+
+  /* JOPINFO */
+  #job-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* CO sua */
+  .grid-col-1,
+  #job-info .wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    margin: 0 auto;
+  }
+
+  /* CO sua */
+  #job-info .section-content__wrap-info i {
+    width: 30%;
+    font-size: 50px;
+    padding: 0px 80px;
+  }
+
+  #job-info .section-content__main-items {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+
+  /* interest */
+  #interest {
+  }
+
+  #interest .section-content__wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #interest .section-content__wrap p {
+    display: flex;
+    font-size: 20px;
+  }
+
+  #interest .section-content__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  #interest .section-content__icon i {
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid var(--main-color);
+  }
+
+  /* language */
+  #language {
+  }
+
+  #language .section-content__sub {
+    margin-bottom: 20px;
+  }
+
+  #language .section-content__sub-items {
+    display: inline-block;
+    height: 4px;
+    background-color: #ccc;
+    margin-right: 2px;
+    width: 60px;
+  }
+
+  #language .section-content__wrap {
+    font-size: 20px;
+  }
+
+  /* skill */
+  #skill {
+  }
+
+  #skill .section-content__sub {
+    margin-bottom: 20px;
+  }
+
+  #skill .section-content__sub-items {
+    display: inline-block;
+    height: 4px;
+    background-color: #ccc;
+    margin-right: 2px;
+    width: 60px;
+  }
+
+  #skill .section-content__wrap {
+    font-size: 20px;
+  }
+
+  /* certificate */
+  #certificate {
+  }
+
+  /* CO sua */
+  .grid-col-1,
+  #certificate .wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #certificate h1 {
+    font-size: 35px;
+  }
+
+  #certificate .container {
+    display: inline-block;
+    padding: 20px 0px;
+    align-items: center;
+    border-bottom: 2px solid #d6c08d;
+  }
+
+  /* CO sua */
+  #certificate .container--bulkhead {
+    border-left: inherit;
+    padding-left: 0px;
+  }
+
+  /* CO sua */
+  #certificate .section-content__img {
+    height: 350px;
+    width: 100%;
+  }
+
+  #certificate .section-content__wrap {
+    margin: 20px;
+  }
+
+  #certificate .section-content__main {
+    margin-bottom: 20px;
+  }
+
+  #certificate .section-content__main-items {
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  #certificate .section-content__sub-items {
+    list-style: none;
+  }
+
+  /* PROJECT */
+  #project {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* CO sua */
+  .grid-col-1,
+  #project .wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  #project .container {
+    margin-top: 20px;
+    display: inline-block;
+  }
+
+  #project h1 {
+    font-size: 35px;
+  }
+
+  #project .section-content__img {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    top: 5px;
+  }
+
+  #project .section-content__project {
+    margin: 0;
+    padding: 15px 20px;
+    font-weight: bold;
+    border-left: 1px solid #d6c08d;
+    border-right: 1px solid #d6c08d;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  #project .section-content__items {
+    display: inline-block;
+    align-items: center;
+    border-left: 1px solid #d6c08d;
+    border-right: 1px solid #d6c08d;
+    border-bottom: none;
+    width: 100%;
+  }
+
+  #project .section-content__year {
+    font-size: 20px;
+    background-color: var(--main-color);
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-bottom: 16px;
+  }
+
+  #project .section-content__personal {
+    display: flex;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+
+  #project .wrap__personal {
+    display: inline-block;
+  }
+
+  #project .section-content__personal-icon {
+    margin-right: 8px;
+  }
+
+  #project .section-content__table {
+    max-width: 720px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  #project .section-content__table tr {
+    border-top: 1px solid #d6c08d;
+    border-left: 1px solid #d6c08d;
+    border-right: 1px solid #d6c08d;
+    border-bottom: 1px solid #d6c08d;
+    display: flex;
+    padding: 15px 10px;
+    font-size: 20px;
+  }
+
+  #project .section-content__table td:first-child {
+    min-width: 150px;
+  }
+
+  #project .section-content__table td {
+    min-width: 90px;
+  }
+
+  #project .section-content__table td:last-child {
+    min-height: 93px;
+  }
+
+  /* footer */
+  #footer {
+  }
+
+  #footer .container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  /* CO sua */
+  #footer li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: inherit;
+    padding: 0px 10px;
+  }
+
+  #footer span {
+    font-size: 20px;
+    display: none;
+  }
+
+  #footer i {
+    color: var(--main-color);
+    font-size: 50px;
+  }
+}
