@@ -15,7 +15,7 @@
 
   section > .containers {
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     display: block;
 
     padding: 30px 10px;
@@ -23,7 +23,11 @@
 
   #banner .box h1 {
     color: #f7f7f7;
-    font-size: 35px;
+    font-size: 30px;
+  }
+
+  #banner .box span {
+    font-size: 13px;
   }
 
   /* NAVBAR */
@@ -91,7 +95,7 @@
   }
 
   #about h1 {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
 
@@ -133,6 +137,12 @@
     margin: 0 auto;
   }
 
+  #job-info .container {
+    border: 1px solid #ccc;
+    padding: 40px 10px 40px 30px;
+    height: auto;
+  }
+
   /* CO sua */
   #job-info .section-content__wrap-info i {
     width: 30%;
@@ -140,9 +150,22 @@
     padding: 0px 80px;
   }
 
+  #job-info .section-content__wrap-info h1 {
+    font-size: 30px;
+  }
+
   #job-info .section-content__main-items {
     font-weight: bold;
     margin-bottom: 8px;
+    font-size: 21px;
+  }
+
+  #job-info .section-content__sub-items-title {
+    font-size: 20px;
+  }
+
+  #job-info .section-content__sub-items {
+    line-height: 28px;
     font-size: 20px;
   }
 
