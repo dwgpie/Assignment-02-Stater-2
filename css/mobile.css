@@ -18,16 +18,29 @@
     margin: 0 auto;
     display: block;
 
-    padding: 30px 10px;
+    padding: 30px 5px;
+  }
+
+  #banner .banner__img {
+    width: 100%;
+    height: 400px;
+  }
+
+  #banner .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   #banner .box h1 {
     color: #f7f7f7;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #banner .box span {
-    font-size: 13px;
+    font-size: 10px;
+    padding-right: 90px;
   }
 
   /* NAVBAR */
@@ -101,7 +114,7 @@
 
   #about p {
     line-height: 28px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #personal-info span {
@@ -109,7 +122,7 @@
   }
 
   #personal-info li {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #personal-info .personal-info__icon {
