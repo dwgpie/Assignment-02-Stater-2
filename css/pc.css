@@ -73,6 +73,7 @@ section > .containers {
   border: 1px solid #ccc;
   border-top: inherit;
   border-bottom: inherit;
+  color: black;
 }
 
 #nav-bar .container__info--other {
